@@ -1,0 +1,83 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid transparent;
+}
+
+body {
+    height: 100vh;
+    background-color: hsl(233, 47%, 7%);
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+}
+
+main {
+    width: 90%;
+    margin-inline: auto;
+    height: 80%;
+    margin-top: 20%;
+    /* margin-bottom: auto; */
+    border-radius: 10px;
+    background-color: hsl(244, 38%, 16%);
+}
+
+.hero-image {
+    background-color: hsl(277, 64%, 61%);
+    background-image: url("/images/image-header-mobile.jpg");
+    width: 100%;
+    height: 30%;
+    background-size: 100%;
+    background-blend-mode: multiply;
+    border-radius: 10px 10px 0 0;
+    background-repeat: no-repeat;
+    border: none;
+}
+
+h1 {
+    height: 20%;
+    padding: 10% 15%;
+    font-size: 2rem;
+}
+
+h1 span {
+    color: hsl(277, 64%, 61%);
+}
+
+.first-p {
+    height: 15%;
+    padding: 7% 8%;
+    line-height: 1.3;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.inner-div {
+    height: 35%;
+}
+
+.inner-div h2, .inner-div p  {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.inner-div h2 {
+    padding-top: 5%;
+    padding-bottom: 2%;
+    color: hsla(0, 0%, 100%, 0.6);
+}
+
+.inner-div h2, h1 {
+    color: hsl(0, 0%, 100%);
+}
+
+.first-p, .inner-div p {
+color: hsla(0, 0%, 100%, 0.75);
+}
+
+.inner-div p {
+    font-size: 0.9rem;
+}
+
